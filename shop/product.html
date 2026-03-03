@@ -4,6 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Five Ceramics</title>
+  <meta name="description" content="Discover handcrafted ceramic pieces by Five Ceramics.">
+  <meta property="og:type" content="product">
+  <meta property="og:site_name" content="Five Ceramics">
+  <meta property="og:title" content="Five Ceramics">
+  <meta property="og:description" content="Discover handcrafted ceramic pieces by Five Ceramics.">
+  <meta property="og:url" content="https://fiveceramics.com/shop/product.html">
+  <meta property="og:image" content="https://fiveceramics.com/images/rodsbod_sconce_interior_land.png">
+  <meta property="og:image:alt" content="Five Ceramics product preview image">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Five Ceramics">
+  <meta name="twitter:description" content="Discover handcrafted ceramic pieces by Five Ceramics.">
+  <meta name="twitter:image" content="https://fiveceramics.com/images/rodsbod_sconce_interior_land.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
@@ -58,6 +70,44 @@
   <script src="../data/products.js"></script>
   <script>
     (function() {
+      function upsertMeta(selector, attr, value) {
+        var tag = document.querySelector(selector);
+        if (!tag) {
+          tag = document.createElement('meta');
+          var key = selector.indexOf('property=') !== -1 ? 'property' : 'name';
+          var match = selector.match(/["']([^"']+)["']/);
+          if (match && match[1]) tag.setAttribute(key, match[1]);
+          document.head.appendChild(tag);
+        }
+        tag.setAttribute(attr, value);
+      }
+
+      function toAbsoluteUrl(path) {
+        if (!path) return '';
+        return new URL('../' + path, window.location.href).href;
+      }
+
+      function setSocialPreview(product) {
+        var title = product.name + ' - Five Ceramics';
+        var description = product.description || 'Discover handcrafted ceramic pieces by Five Ceramics.';
+        var image = product.images && product.images.length ? toAbsoluteUrl(product.images[0]) : '';
+        var pageUrl = new URL(window.location.href);
+        pageUrl.searchParams.set('slug', product.slug);
+
+        document.title = title;
+        upsertMeta('meta[name="description"]', 'content', description);
+        upsertMeta('meta[property="og:type"]', 'content', 'product');
+        upsertMeta('meta[property="og:title"]', 'content', title);
+        upsertMeta('meta[property="og:description"]', 'content', description);
+        upsertMeta('meta[property="og:url"]', 'content', pageUrl.toString());
+        upsertMeta('meta[property="og:image"]', 'content', image);
+        upsertMeta('meta[property="og:image:alt"]', 'content', product.name + ' by Five Ceramics');
+        upsertMeta('meta[name="twitter:card"]', 'content', 'summary_large_image');
+        upsertMeta('meta[name="twitter:title"]', 'content', title);
+        upsertMeta('meta[name="twitter:description"]', 'content', description);
+        upsertMeta('meta[name="twitter:image"]', 'content', image);
+      }
+
       var LABELS = { lighting: 'Lighting', tableware: 'Tableware', interiors: 'Interiors' };
       var params = new URLSearchParams(window.location.search);
       var slug = params.get('slug');
@@ -77,7 +127,7 @@
         return;
       }
 
-      document.title = p.name + ' – Five Ceramics';
+      setSocialPreview(p);
       var catLabel = LABELS[p.category] || p.category;
 
       var mainImg = p.images && p.images.length
