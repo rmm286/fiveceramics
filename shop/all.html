@@ -19,9 +19,9 @@
           <a href="all.html">Shop</a>
           <div class="nav-dropdown-menu">
             <a href="all.html">All</a>
-            <a href="lighting.html">Lighting</a>
-            <a href="tableware.html">Tableware</a>
-            <a href="interiors.html">Interiors</a>
+            <a href="all.html#lighting">Lighting</a>
+            <a href="all.html#tableware">Tableware</a>
+            <a href="all.html#interiors">Interiors</a>
           </div>
         </div>
         <a href="../about.html">About</a>
@@ -42,165 +42,8 @@
   </div>
 
   <section>
-    <div class="container">
-      <p class="section-subtitle">Lighting</p>
-      <div class="product-grid" style="margin-bottom: 4rem;">
-
-        <div class="product-card">
-          <div class="product-card-image">
-            <span class="placeholder-text">Photo</span>
-          </div>
-          <h3>Pendant Lamp I</h3>
-          <p class="price">From $XXX</p>
-        </div>
-
-        <div class="product-card">
-          <div class="product-card-image">
-            <span class="placeholder-text">Photo</span>
-          </div>
-          <h3>Pendant Lamp II</h3>
-          <p class="price">From $XXX</p>
-        </div>
-
-        <div class="product-card">
-          <div class="product-card-image">
-            <span class="placeholder-text">Photo</span>
-          </div>
-          <h3>Table Lamp I</h3>
-          <p class="price">From $XXX</p>
-        </div>
-
-        <div class="product-card">
-          <div class="product-card-image">
-            <span class="placeholder-text">Photo</span>
-          </div>
-          <h3>Table Lamp II</h3>
-          <p class="price">From $XXX</p>
-        </div>
-
-        <div class="product-card">
-          <div class="product-card-image">
-            <span class="placeholder-text">Photo</span>
-          </div>
-          <h3>Wall Sconce I</h3>
-          <p class="price">From $XXX</p>
-        </div>
-
-        <div class="product-card">
-          <div class="product-card-image">
-            <span class="placeholder-text">Photo</span>
-          </div>
-          <h3>Wall Sconce II</h3>
-          <p class="price">From $XXX</p>
-        </div>
-
-      </div>
-
-      <p class="section-subtitle">Tableware</p>
-      <div class="product-grid" style="margin-bottom: 4rem;">
-
-        <div class="product-card">
-          <div class="product-card-image">
-            <span class="placeholder-text">Photo</span>
-          </div>
-          <h3>Dinner Plate Set</h3>
-          <p class="price">From $XXX</p>
-        </div>
-
-        <div class="product-card">
-          <div class="product-card-image">
-            <span class="placeholder-text">Photo</span>
-          </div>
-          <h3>Bowl Set</h3>
-          <p class="price">From $XXX</p>
-        </div>
-
-        <div class="product-card">
-          <div class="product-card-image">
-            <span class="placeholder-text">Photo</span>
-          </div>
-          <h3>Mug Collection</h3>
-          <p class="price">From $XXX</p>
-        </div>
-
-        <div class="product-card">
-          <div class="product-card-image">
-            <span class="placeholder-text">Photo</span>
-          </div>
-          <h3>Serving Platter</h3>
-          <p class="price">From $XXX</p>
-        </div>
-
-        <div class="product-card">
-          <div class="product-card-image">
-            <span class="placeholder-text">Photo</span>
-          </div>
-          <h3>Pour-Over Set</h3>
-          <p class="price">From $XXX</p>
-        </div>
-
-        <div class="product-card">
-          <div class="product-card-image">
-            <span class="placeholder-text">Photo</span>
-          </div>
-          <h3>Vase</h3>
-          <p class="price">From $XXX</p>
-        </div>
-
-      </div>
-
-      <p class="section-subtitle">Interiors</p>
-      <div class="product-grid">
-
-        <div class="product-card">
-          <div class="product-card-image">
-            <span class="placeholder-text">Photo</span>
-          </div>
-          <h3>Wall Tile Set</h3>
-          <p class="price">From $XXX</p>
-        </div>
-
-        <div class="product-card">
-          <div class="product-card-image">
-            <span class="placeholder-text">Photo</span>
-          </div>
-          <h3>Sculptural Object I</h3>
-          <p class="price">From $XXX</p>
-        </div>
-
-        <div class="product-card">
-          <div class="product-card-image">
-            <span class="placeholder-text">Photo</span>
-          </div>
-          <h3>Wall Installation</h3>
-          <p class="price">From $XXX</p>
-        </div>
-
-        <div class="product-card">
-          <div class="product-card-image">
-            <span class="placeholder-text">Photo</span>
-          </div>
-          <h3>Architectural Vessel</h3>
-          <p class="price">From $XXX</p>
-        </div>
-
-        <div class="product-card">
-          <div class="product-card-image">
-            <span class="placeholder-text">Photo</span>
-          </div>
-          <h3>Floor Tile Collection</h3>
-          <p class="price">From $XXX</p>
-        </div>
-
-        <div class="product-card">
-          <div class="product-card-image">
-            <span class="placeholder-text">Photo</span>
-          </div>
-          <h3>Sculptural Object II</h3>
-          <p class="price">From $XXX</p>
-        </div>
-
-      </div>
+    <div class="container" id="shop-content">
+      <!-- Rendered by JS from products.js -->
     </div>
   </section>
 
@@ -219,5 +62,36 @@
   </footer>
 
   <script src="../js/main.js"></script>
+  <script src="../data/products.js"></script>
+  <script>
+    (function() {
+      var products = window.PRODUCTS || [];
+      var CATEGORIES = ['lighting', 'tableware', 'interiors'];
+      var LABELS = { lighting: 'Lighting', tableware: 'Tableware', interiors: 'Interiors' };
+      var container = document.getElementById('shop-content');
+      var html = '';
+
+      CATEGORIES.forEach(function(cat, i) {
+        var items = products.filter(function(p) { return p.category === cat; });
+        if (!items.length) return;
+        var mb = i < CATEGORIES.length - 1 ? ' style="margin-bottom:4rem"' : '';
+        html += '<h2 id="' + cat + '" class="shop-section-heading">' + LABELS[cat] + '</h2>';
+        html += '<div class="product-grid"' + mb + '>';
+        items.forEach(function(p) {
+          var img = p.images && p.images.length
+            ? '<img src="../' + p.images[0] + '" alt="' + p.name + '">'
+            : '<span class="placeholder-text">Photo</span>';
+          html += '<a href="product.html?slug=' + p.slug + '" class="product-card">'
+            + '<div class="product-card-image">' + img + '</div>'
+            + '<h3>' + p.name + '</h3>'
+            + '<p class="price">' + p.price + '</p>'
+            + '</a>';
+        });
+        html += '</div>';
+      });
+
+      container.innerHTML = html;
+    })();
+  </script>
 </body>
 </html>

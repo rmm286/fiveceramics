@@ -19,9 +19,9 @@
           <a href="shop/all.html">Shop</a>
           <div class="nav-dropdown-menu">
             <a href="shop/all.html">All</a>
-            <a href="shop/lighting.html">Lighting</a>
-            <a href="shop/tableware.html">Tableware</a>
-            <a href="shop/interiors.html">Interiors</a>
+            <a href="shop/all.html#lighting">Lighting</a>
+            <a href="shop/all.html#tableware">Tableware</a>
+            <a href="shop/all.html#interiors">Interiors</a>
           </div>
         </div>
         <a href="about.html">About</a>
@@ -49,57 +49,8 @@
     <div class="container">
       <p class="section-subtitle">Selected Works</p>
       <h2>Featured</h2>
-      <div class="product-grid">
-
-        <div class="product-card">
-          <div class="product-card-image">
-            <!-- Replace with: <img src="images/featured-1.jpg" alt="Product name"> -->
-            <span class="placeholder-text">Photo</span>
-          </div>
-          <h3>Piece Name</h3>
-          <p class="price">From $XXX</p>
-        </div>
-
-        <div class="product-card">
-          <div class="product-card-image">
-            <span class="placeholder-text">Photo</span>
-          </div>
-          <h3>Piece Name</h3>
-          <p class="price">From $XXX</p>
-        </div>
-
-        <div class="product-card">
-          <div class="product-card-image">
-            <span class="placeholder-text">Photo</span>
-          </div>
-          <h3>Piece Name</h3>
-          <p class="price">From $XXX</p>
-        </div>
-
-        <div class="product-card">
-          <div class="product-card-image">
-            <span class="placeholder-text">Photo</span>
-          </div>
-          <h3>Piece Name</h3>
-          <p class="price">From $XXX</p>
-        </div>
-
-        <div class="product-card">
-          <div class="product-card-image">
-            <span class="placeholder-text">Photo</span>
-          </div>
-          <h3>Piece Name</h3>
-          <p class="price">From $XXX</p>
-        </div>
-
-        <div class="product-card">
-          <div class="product-card-image">
-            <span class="placeholder-text">Photo</span>
-          </div>
-          <h3>Piece Name</h3>
-          <p class="price">From $XXX</p>
-        </div>
-
+      <div class="product-grid" id="featured-grid">
+        <!-- Rendered by JS from products.json -->
       </div>
       <div class="featured-cta">
         <a href="shop/all.html" class="btn">View Collection</a>
@@ -122,5 +73,25 @@
   </footer>
 
   <script src="js/main.js"></script>
+  <script src="data/products.js"></script>
+  <script>
+    (function() {
+      var products = window.PRODUCTS || [];
+      var featured = products.filter(function(p) { return p.featured; });
+      var grid = document.getElementById('featured-grid');
+      var html = '';
+      featured.forEach(function(p) {
+        var img = p.images && p.images.length
+          ? '<img src="' + p.images[0] + '" alt="' + p.name + '">'
+          : '<span class="placeholder-text">Photo</span>';
+        html += '<a href="shop/product.html?slug=' + p.slug + '" class="product-card">'
+          + '<div class="product-card-image">' + img + '</div>'
+          + '<h3>' + p.name + '</h3>'
+          + '<p class="price">' + p.price + '</p>'
+          + '</a>';
+      });
+      grid.innerHTML = html;
+    })();
+  </script>
 </body>
 </html>
