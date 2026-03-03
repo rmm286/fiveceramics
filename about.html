@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Five Ceramics</title>
+  <title>About – Five Ceramics</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
@@ -34,26 +34,42 @@
     </nav>
   </header>
 
-  <section class="hero">
-    <div class="hero-image">
-      <!-- Replace with: <img src="images/hero.jpg" alt="Five Ceramics hero"> -->
-      <span class="hero-placeholder">Hero Image</span>
-    </div>
-    <div class="hero-overlay">
-      <h1>Five Ceramics</h1>
-      <p>Architectural ceramics, handcrafted with intention</p>
-    </div>
-  </section>
-
-  <section class="featured">
+  <div class="page-banner">
     <div class="container">
-      <p class="section-subtitle">Selected Works</p>
-      <h2>Featured</h2>
-      <div class="product-grid" id="featured-grid">
-        <!-- Rendered by JS from products.json -->
-      </div>
-      <div class="featured-cta">
-        <a href="shop/all.html" class="btn">View Collection</a>
+      <h1>About</h1>
+    </div>
+  </div>
+
+  <section>
+    <div class="container">
+      <div class="about-content">
+        <div class="about-photo">
+          <!-- Replace with: <img src="images/about-portrait.jpg" alt="Portrait"> -->
+          <span class="hero-placeholder">Portrait Photo</span>
+        </div>
+        <div class="about-text">
+          <p class="section-subtitle">The Studio</p>
+          <h2>Your Name Here</h2>
+          <p>
+            Write a short introduction about yourself here. Talk about your background,
+            what drew you to ceramics, and the philosophy behind your work. This is the
+            first thing visitors will read, so make it personal and inviting.
+          </p>
+          <p>
+            Add a second paragraph about your approach to craft — how architectural
+            design informs your ceramic practice, the materials you work with, and what
+            makes each piece unique. Mention your studio location if you'd like.
+          </p>
+          <p>
+            A third paragraph can cover your journey — education, exhibitions, notable
+            collaborations, or any other milestones you want to share.
+          </p>
+          <div class="contact-info">
+            <p><strong>Email</strong> — hello@fiveceramics.com</p>
+            <p><strong>Studio</strong> — Your City, State</p>
+            <p><strong>Instagram</strong> — @fiveceramics</p>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -73,25 +89,5 @@
   </footer>
 
   <script src="js/main.js"></script>
-  <script src="data/products.js"></script>
-  <script>
-    (function() {
-      var products = window.PRODUCTS || [];
-      var featured = products.filter(function(p) { return p.featured; });
-      var grid = document.getElementById('featured-grid');
-      var html = '';
-      featured.forEach(function(p) {
-        var img = p.images && p.images.length
-          ? '<img src="' + p.images[0] + '" alt="' + p.name + '">'
-          : '<span class="placeholder-text">Photo</span>';
-        html += '<a href="shop/product.html?slug=' + p.slug + '" class="product-card">'
-          + '<div class="product-card-image">' + img + '</div>'
-          + '<h3>' + p.name + '</h3>'
-          + '<p class="price">' + p.price + '</p>'
-          + '</a>';
-      });
-      grid.innerHTML = html;
-    })();
-  </script>
 </body>
 </html>
