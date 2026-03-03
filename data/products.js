@@ -1,5 +1,21 @@
 window.PRODUCTS = [
   {
+    "slug": "sconce",
+    "name": "Sconce",
+    "category": "lighting",
+    "price": "$350",
+    "featured": true,
+    "description": "A handcrafted ceramic sconce with a warm, architectural glow.",
+    "availability": "Made to order — 4–6 weeks",
+    "images": [
+      "images/rodsbod_sconce_by_window_port.png",
+      "images/rodsbod_sconce_interior_port.png"
+    ],
+    "dimensions": { "Height": "10 in", "Width": "7 in", "Depth": "5 in" },
+    "shipping": "Each piece is carefully packaged in recycled materials and double-boxed for safe transit. Shipping rates are calculated based on destination.",
+    "care": "Handle with care. Clean with a soft, dry cloth. Avoid abrasive cleaners."
+  },
+  {
     "slug": "pendant-lamp-i",
     "name": "Pendant Lamp I",
     "category": "lighting",
