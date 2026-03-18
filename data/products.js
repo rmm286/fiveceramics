@@ -8,6 +8,7 @@ window.PRODUCTS = [
     "description": "A handcrafted ceramic sconce with a warm, architectural glow.",
     "availability": "Made to order — 4–6 weeks",
     "images": [
+      "images/sconce_product_shot.png",
       "images/rodsbod_sconce_product_port.png",
       "images/rodsbod_hero_port.png"
     ],
