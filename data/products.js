@@ -17,15 +17,18 @@ window.PRODUCTS = [
     "care": "Handle with care. Clean with a soft, dry cloth. Avoid abrasive cleaners."
   },
   {
-    "slug": "pendant-lamp-i",
-    "name": "Pendant Lamp I",
+    "slug": "table-lamp",
+    "name": "Table Lamp",
     "category": "lighting",
-    "price": "$850",
+    "price": "$400",
     "featured": true,
-    "description": "A sculptural ceramic pendant with a warm, diffused glow. Hand-thrown stoneware body with a matte clay finish.",
+    "description": "A two-tier ceramic table lamp with a minimalist silhouette. Speckled cream stoneware with a warm, soft glow.",
     "availability": "Made to order — 4–6 weeks",
-    "images": [],
-    "dimensions": { "Height": "12 in", "Diameter": "10 in", "Weight": "4 lbs" },
+    "images": [
+      "images/table_lamp_product_shot.png",
+      "images/table_lamp_example_shot.png"
+    ],
+    "dimensions": { "Height": "18 in", "Base": "6 in", "Weight": "5 lbs" },
     "shipping": "Each piece is carefully packaged in recycled materials and double-boxed for safe transit. Shipping rates are calculated based on destination.",
     "care": "Handle with care. Clean with a soft, dry cloth. Avoid abrasive cleaners."
   },
