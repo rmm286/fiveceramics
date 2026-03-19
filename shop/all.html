@@ -84,7 +84,7 @@
       var html = '';
 
       CATEGORIES.forEach(function(cat, i) {
-        var items = products.filter(function(p) { return p.category === cat; });
+        var items = products.filter(function(p) { return p.category === cat && p.images && p.images.length > 0; });
         if (!items.length) return;
         var mb = i < CATEGORIES.length - 1 ? ' style="margin-bottom:4rem"' : '';
         html += '<h2 id="' + cat + '" class="shop-section-heading">' + LABELS[cat] + '</h2>';
