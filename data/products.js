@@ -14,7 +14,6 @@ window.PRODUCTS = [
     ],
     "dimensions": { "Height": "18 in", "Width": "7 in", "Depth": "5 in" },
     "shipping": "Each piece is carefully packaged in recycled materials and double-boxed for safe transit. Shipping rates are calculated based on destination.",
-    "care": "Handle with care. Clean with a soft, dry cloth. Avoid abrasive cleaners."
   },
   {
     "slug": "table-lamp",
@@ -30,7 +29,6 @@ window.PRODUCTS = [
     ],
     "dimensions": { "Height": "11 in", "Base": "6 in" },
     "shipping": "Each piece is carefully packaged in recycled materials and double-boxed for safe transit. Shipping rates are calculated based on destination.",
-    "care": "Handle with care. Clean with a soft, dry cloth. Avoid abrasive cleaners."
   },
   {
     "slug": "pendant-lamp-ii",
@@ -43,7 +41,6 @@ window.PRODUCTS = [
     "images": [],
     "dimensions": { "Height": "14 in", "Diameter": "16 in" },
     "shipping": "Each piece is carefully packaged in recycled materials and double-boxed for safe transit. Shipping rates are calculated based on destination.",
-    "care": "Handle with care. Clean with a soft, dry cloth. Avoid abrasive cleaners."
   },
   {
     "slug": "table-lamp-i",
@@ -56,7 +53,6 @@ window.PRODUCTS = [
     "images": [],
     "dimensions": { "Height": "18 in", "Base": "6 in" },
     "shipping": "Each piece is carefully packaged in recycled materials and double-boxed for safe transit. Shipping rates are calculated based on destination.",
-    "care": "Handle with care. Clean with a soft, dry cloth. Avoid abrasive cleaners."
   },
   {
     "slug": "table-lamp-ii",
@@ -69,7 +65,6 @@ window.PRODUCTS = [
     "images": [],
     "dimensions": { "Height": "20 in", "Base": "7 in" },
     "shipping": "Each piece is carefully packaged in recycled materials and double-boxed for safe transit. Shipping rates are calculated based on destination.",
-    "care": "Handle with care. Clean with a soft, dry cloth. Avoid abrasive cleaners."
   },
   {
     "slug": "wall-sconce-i",
@@ -82,7 +77,6 @@ window.PRODUCTS = [
     "images": [],
     "dimensions": { "Height": "8 in", "Width": "10 in", "Depth": "5 in" },
     "shipping": "Each piece is carefully packaged in recycled materials and double-boxed for safe transit. Shipping rates are calculated based on destination.",
-    "care": "Handle with care. Clean with a soft, dry cloth. Avoid abrasive cleaners."
   },
   {
     "slug": "wall-sconce-ii",
@@ -95,7 +89,6 @@ window.PRODUCTS = [
     "images": [],
     "dimensions": { "Height": "10 in", "Width": "6 in", "Depth": "5 in" },
     "shipping": "Each piece is carefully packaged in recycled materials and double-boxed for safe transit. Shipping rates are calculated based on destination.",
-    "care": "Handle with care. Clean with a soft, dry cloth. Avoid abrasive cleaners."
   },
   {
     "slug": "floor-lamp-arc",
@@ -108,7 +101,6 @@ window.PRODUCTS = [
     "images": [],
     "dimensions": { "Height": "68 in", "Reach": "24 in" },
     "shipping": "Each piece is carefully packaged in recycled materials and double-boxed for safe transit. Shipping rates are calculated based on destination.",
-    "care": "Handle with care. Clean ceramic shade with a soft, dry cloth."
   },
   {
     "slug": "pendant-cluster",
@@ -121,7 +113,6 @@ window.PRODUCTS = [
     "images": [],
     "dimensions": { "Drop": "24–36 in", "Canopy": "12 in" },
     "shipping": "Each piece is carefully packaged in recycled materials and double-boxed for safe transit. Shipping rates are calculated based on destination.",
-    "care": "Handle with care. Clean with a soft, dry cloth. Avoid abrasive cleaners."
   },
   {
     "slug": "lantern-sconce",
@@ -134,7 +125,6 @@ window.PRODUCTS = [
     "images": [],
     "dimensions": { "Height": "12 in", "Width": "7 in", "Depth": "6 in" },
     "shipping": "Each piece is carefully packaged in recycled materials and double-boxed for safe transit. Shipping rates are calculated based on destination.",
-    "care": "Handle with care. Clean with a soft, dry cloth."
   },
   {
     "slug": "dinner-plate-set",
@@ -147,7 +137,6 @@ window.PRODUCTS = [
     "images": [],
     "dimensions": { "Diameter": "10.5 in", "Height": "1 in" },
     "shipping": "Each piece is carefully packaged in recycled materials and double-boxed for safe transit. Shipping rates are calculated based on destination.",
-    "care": "Dishwasher safe. Microwave safe. Each piece is handmade and may exhibit slight variations."
   },
   {
     "slug": "bowl-set",
@@ -160,7 +149,6 @@ window.PRODUCTS = [
     "images": [],
     "dimensions": { "Diameter": "7 in", "Height": "3.5 in" },
     "shipping": "Each piece is carefully packaged in recycled materials and double-boxed for safe transit. Shipping rates are calculated based on destination.",
-    "care": "Dishwasher safe. Microwave safe. Each piece is handmade and may exhibit slight variations."
   },
   {
     "slug": "mug-collection",
@@ -173,7 +161,6 @@ window.PRODUCTS = [
     "images": [],
     "dimensions": { "Diameter": "3.5 in", "Height": "4 in", "Volume": "12 oz" },
     "shipping": "Each piece is carefully packaged in recycled materials and double-boxed for safe transit. Shipping rates are calculated based on destination.",
-    "care": "Dishwasher safe. Microwave safe. Each piece is handmade and may exhibit slight variations."
   },
   {
     "slug": "serving-platter",
@@ -186,7 +173,6 @@ window.PRODUCTS = [
     "images": [],
     "dimensions": { "Length": "16 in", "Width": "10 in" },
     "shipping": "Each piece is carefully packaged in recycled materials and double-boxed for safe transit. Shipping rates are calculated based on destination.",
-    "care": "Dishwasher safe. Microwave safe. Each piece is handmade and may exhibit slight variations."
   },
   {
     "slug": "pour-over-set",
@@ -199,7 +185,6 @@ window.PRODUCTS = [
     "images": [],
     "dimensions": { "Carafe Height": "6 in", "Dripper Diameter": "4.5 in" },
     "shipping": "Each piece is carefully packaged in recycled materials and double-boxed for safe transit. Shipping rates are calculated based on destination.",
-    "care": "Hand wash recommended. Each piece is handmade and may exhibit slight variations."
   },
   {
     "slug": "vase",
@@ -212,7 +197,6 @@ window.PRODUCTS = [
     "images": [],
     "dimensions": { "Height": "10 in", "Diameter": "4 in" },
     "shipping": "Each piece is carefully packaged in recycled materials and double-boxed for safe transit. Shipping rates are calculated based on destination.",
-    "care": "Hand wash recommended. Not intended for prolonged water exposure on unglazed surfaces."
   },
   {
     "slug": "espresso-cup-pair",
@@ -225,7 +209,6 @@ window.PRODUCTS = [
     "images": [],
     "dimensions": { "Diameter": "2.5 in", "Height": "2.5 in", "Volume": "3 oz" },
     "shipping": "Each piece is carefully packaged in recycled materials and double-boxed for safe transit. Shipping rates are calculated based on destination.",
-    "care": "Dishwasher safe. Microwave safe."
   },
   {
     "slug": "butter-dish",
@@ -238,7 +221,6 @@ window.PRODUCTS = [
     "images": [],
     "dimensions": { "Length": "7 in", "Width": "4 in", "Height": "3 in" },
     "shipping": "Each piece is carefully packaged in recycled materials and double-boxed for safe transit. Shipping rates are calculated based on destination.",
-    "care": "Dishwasher safe. Microwave safe."
   },
   {
     "slug": "pitcher",
@@ -251,7 +233,6 @@ window.PRODUCTS = [
     "images": [],
     "dimensions": { "Height": "9 in", "Width": "6 in", "Volume": "48 oz" },
     "shipping": "Each piece is carefully packaged in recycled materials and double-boxed for safe transit. Shipping rates are calculated based on destination.",
-    "care": "Dishwasher safe. Each piece is handmade and may exhibit slight variations."
   },
   {
     "slug": "sake-set",
@@ -264,7 +245,6 @@ window.PRODUCTS = [
     "images": [],
     "dimensions": { "Flask Height": "6 in", "Cup Diameter": "2 in" },
     "shipping": "Each piece is carefully packaged in recycled materials and double-boxed for safe transit. Shipping rates are calculated based on destination.",
-    "care": "Hand wash recommended."
   },
   {
     "slug": "wall-tile-set",
@@ -277,7 +257,6 @@ window.PRODUCTS = [
     "images": [],
     "dimensions": { "Height": "6 in", "Width": "6 in", "Depth": "0.4 in" },
     "shipping": "Tiles ship on pallets for orders over 50 sq ft. Standard boxing for smaller orders. Contact us for freight quotes.",
-    "care": "Suitable for interior wall installation. Clean with a damp cloth. Consult a professional for mounting."
   },
   {
     "slug": "sculptural-object-i",
@@ -290,7 +269,6 @@ window.PRODUCTS = [
     "images": [],
     "dimensions": { "Height": "14 in", "Width": "8 in" },
     "shipping": "Each piece is carefully packaged in recycled materials and double-boxed for safe transit. Shipping rates are calculated based on destination.",
-    "care": "Handle with care. Clean with a soft, dry cloth."
   },
   {
     "slug": "wall-installation",
@@ -303,7 +281,6 @@ window.PRODUCTS = [
     "images": [],
     "dimensions": { "Each Module": "6 × 6 in", "Suggested Layout": "36 × 24 in" },
     "shipping": "Ships in custom crating. Contact us for freight quotes on large installations.",
-    "care": "Dust with a soft brush. Consult a professional for mounting."
   },
   {
     "slug": "architectural-vessel",
@@ -316,7 +293,6 @@ window.PRODUCTS = [
     "images": [],
     "dimensions": { "Height": "24 in", "Diameter": "12 in" },
     "shipping": "Each piece is carefully packaged in recycled materials and double-boxed for safe transit. Shipping rates are calculated based on destination.",
-    "care": "Suitable for indoor use. Wipe with a damp cloth. Drain hole available on request."
   },
   {
     "slug": "floor-tile-collection",
@@ -329,7 +305,6 @@ window.PRODUCTS = [
     "images": [],
     "dimensions": { "Height": "8 in", "Width": "8 in", "Depth": "0.5 in" },
     "shipping": "Tiles ship on pallets for orders over 50 sq ft. Standard boxing for smaller orders. Contact us for freight quotes.",
-    "care": "Suitable for interior flooring. Clean with mild detergent. Consult a professional for installation."
   },
   {
     "slug": "sculptural-object-ii",
@@ -342,7 +317,6 @@ window.PRODUCTS = [
     "images": [],
     "dimensions": { "Height": "18 in", "Width": "6 in" },
     "shipping": "Each piece is carefully packaged in recycled materials and double-boxed for safe transit. Shipping rates are calculated based on destination.",
-    "care": "Handle with care. Clean with a soft, dry cloth."
   },
   {
     "slug": "room-divider-screen",
@@ -355,7 +329,6 @@ window.PRODUCTS = [
     "images": [],
     "dimensions": { "Height": "72 in", "Width": "60 in (total)" },
     "shipping": "Ships in custom crating via freight. Contact us for delivery quotes.",
-    "care": "Wipe ceramic panels with a damp cloth. Treat steel frame with furniture wax annually."
   },
   {
     "slug": "console-vessel",
@@ -368,7 +341,6 @@ window.PRODUCTS = [
     "images": [],
     "dimensions": { "Length": "18 in", "Width": "6 in", "Height": "4 in" },
     "shipping": "Each piece is carefully packaged in recycled materials and double-boxed for safe transit. Shipping rates are calculated based on destination.",
-    "care": "Handle with care. Clean with a soft, dry cloth."
   },
   {
     "slug": "fireplace-surround",
@@ -381,7 +353,6 @@ window.PRODUCTS = [
     "images": [],
     "dimensions": { "Custom": "Contact for sizing", "Depth": "0.5 in" },
     "shipping": "Ships in custom crating via freight. Contact us for delivery quotes.",
-    "care": "Heat resistant. Clean with a damp cloth. Avoid abrasive cleaners near glaze surfaces."
   },
   {
     "slug": "sculptural-object-iii",
@@ -394,6 +365,5 @@ window.PRODUCTS = [
     "images": [],
     "dimensions": { "Height": "28 in", "Width": "10 in" },
     "shipping": "Each piece is carefully packaged in recycled materials and double-boxed for safe transit. Shipping rates are calculated based on destination.",
-    "care": "Handle with care. Clean with a soft, dry cloth."
   }
 ];
