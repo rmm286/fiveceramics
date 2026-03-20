@@ -12,7 +12,7 @@ window.PRODUCTS = [
       "images/rodsbod_sconce_product_port.png",
       "images/rodsbod_hero_port.png"
     ],
-    "dimensions": { "Height": "10 in", "Width": "7 in", "Depth": "5 in" },
+    "dimensions": { "Height": "18 in", "Width": "7 in", "Depth": "5 in" },
     "shipping": "Each piece is carefully packaged in recycled materials and double-boxed for safe transit. Shipping rates are calculated based on destination.",
     "care": "Handle with care. Clean with a soft, dry cloth. Avoid abrasive cleaners."
   },
@@ -28,7 +28,7 @@ window.PRODUCTS = [
       "images/table_lamp_product_shot.png",
       "images/table_lamp_example_shot.png"
     ],
-    "dimensions": { "Height": "18 in", "Base": "6 in", "Weight": "5 lbs" },
+    "dimensions": { "Height": "11 in", "Base": "6 in" },
     "shipping": "Each piece is carefully packaged in recycled materials and double-boxed for safe transit. Shipping rates are calculated based on destination.",
     "care": "Handle with care. Clean with a soft, dry cloth. Avoid abrasive cleaners."
   },
@@ -41,7 +41,7 @@ window.PRODUCTS = [
     "description": "An oversized dome pendant in speckled ceramic. Casts a wide, soft pool of light. Includes brass hardware and fabric cord.",
     "availability": "Made to order — 4–6 weeks",
     "images": [],
-    "dimensions": { "Height": "14 in", "Diameter": "16 in", "Weight": "6 lbs" },
+    "dimensions": { "Height": "14 in", "Diameter": "16 in" },
     "shipping": "Each piece is carefully packaged in recycled materials and double-boxed for safe transit. Shipping rates are calculated based on destination.",
     "care": "Handle with care. Clean with a soft, dry cloth. Avoid abrasive cleaners."
   },
@@ -54,7 +54,7 @@ window.PRODUCTS = [
     "description": "A columnar table lamp with an architectural silhouette. Unglazed exterior with a linen drum shade.",
     "availability": "Made to order — 4–6 weeks",
     "images": [],
-    "dimensions": { "Height": "18 in", "Base": "6 in", "Weight": "5 lbs" },
+    "dimensions": { "Height": "18 in", "Base": "6 in" },
     "shipping": "Each piece is carefully packaged in recycled materials and double-boxed for safe transit. Shipping rates are calculated based on destination.",
     "care": "Handle with care. Clean with a soft, dry cloth. Avoid abrasive cleaners."
   },
@@ -67,7 +67,7 @@ window.PRODUCTS = [
     "description": "A gourd-shaped table lamp in satin white glaze. Includes a tapered linen shade and brass fittings.",
     "availability": "Made to order — 4–6 weeks",
     "images": [],
-    "dimensions": { "Height": "20 in", "Base": "7 in", "Weight": "5.5 lbs" },
+    "dimensions": { "Height": "20 in", "Base": "7 in" },
     "shipping": "Each piece is carefully packaged in recycled materials and double-boxed for safe transit. Shipping rates are calculated based on destination.",
     "care": "Handle with care. Clean with a soft, dry cloth. Avoid abrasive cleaners."
   },
@@ -106,7 +106,7 @@ window.PRODUCTS = [
     "description": "An arcing floor lamp with a ceramic shade suspended from a blackened steel arm. Statement piece for living spaces.",
     "availability": "Made to order — 8–10 weeks",
     "images": [],
-    "dimensions": { "Height": "68 in", "Reach": "24 in", "Weight": "18 lbs" },
+    "dimensions": { "Height": "68 in", "Reach": "24 in" },
     "shipping": "Each piece is carefully packaged in recycled materials and double-boxed for safe transit. Shipping rates are calculated based on destination.",
     "care": "Handle with care. Clean ceramic shade with a soft, dry cloth."
   },
@@ -119,7 +119,7 @@ window.PRODUCTS = [
     "description": "A grouping of three ceramic pendants at staggered heights. Each shade is hand-thrown with subtle variation. Includes canopy plate.",
     "availability": "Made to order — 6–8 weeks",
     "images": [],
-    "dimensions": { "Drop": "24–36 in", "Canopy": "12 in", "Weight": "12 lbs" },
+    "dimensions": { "Drop": "24–36 in", "Canopy": "12 in" },
     "shipping": "Each piece is carefully packaged in recycled materials and double-boxed for safe transit. Shipping rates are calculated based on destination.",
     "care": "Handle with care. Clean with a soft, dry cloth. Avoid abrasive cleaners."
   },
@@ -145,7 +145,7 @@ window.PRODUCTS = [
     "description": "A set of four dinner plates in speckled ceramic. Slightly irregular rims celebrate the handmade process.",
     "availability": "Made to order — 4–6 weeks",
     "images": [],
-    "dimensions": { "Diameter": "10.5 in", "Height": "1 in", "Weight": "6 lbs (set)" },
+    "dimensions": { "Diameter": "10.5 in", "Height": "1 in" },
     "shipping": "Each piece is carefully packaged in recycled materials and double-boxed for safe transit. Shipping rates are calculated based on destination.",
     "care": "Dishwasher safe. Microwave safe. Each piece is handmade and may exhibit slight variations."
   },
@@ -158,7 +158,7 @@ window.PRODUCTS = [
     "description": "A set of four soup bowls in warm cream glaze. Deep enough for ramen, generous enough for salads.",
     "availability": "Made to order — 4–6 weeks",
     "images": [],
-    "dimensions": { "Diameter": "7 in", "Height": "3.5 in", "Weight": "5 lbs (set)" },
+    "dimensions": { "Diameter": "7 in", "Height": "3.5 in" },
     "shipping": "Each piece is carefully packaged in recycled materials and double-boxed for safe transit. Shipping rates are calculated based on destination.",
     "care": "Dishwasher safe. Microwave safe. Each piece is handmade and may exhibit slight variations."
   },
@@ -184,7 +184,7 @@ window.PRODUCTS = [
     "description": "An oval serving platter in satin white glaze with a raw clay rim. Perfect centerpiece for the table.",
     "availability": "Made to order — 4–6 weeks",
     "images": [],
-    "dimensions": { "Length": "16 in", "Width": "10 in", "Weight": "3.5 lbs" },
+    "dimensions": { "Length": "16 in", "Width": "10 in" },
     "shipping": "Each piece is carefully packaged in recycled materials and double-boxed for safe transit. Shipping rates are calculated based on destination.",
     "care": "Dishwasher safe. Microwave safe. Each piece is handmade and may exhibit slight variations."
   },
@@ -197,7 +197,7 @@ window.PRODUCTS = [
     "description": "A ceramic pour-over dripper and carafe set. Unglazed exterior, glazed interior. Designed for slow mornings.",
     "availability": "Made to order — 4–6 weeks",
     "images": [],
-    "dimensions": { "Carafe Height": "6 in", "Dripper Diameter": "4.5 in", "Weight": "2 lbs" },
+    "dimensions": { "Carafe Height": "6 in", "Dripper Diameter": "4.5 in" },
     "shipping": "Each piece is carefully packaged in recycled materials and double-boxed for safe transit. Shipping rates are calculated based on destination.",
     "care": "Hand wash recommended. Each piece is handmade and may exhibit slight variations."
   },
@@ -210,7 +210,7 @@ window.PRODUCTS = [
     "description": "A tall, slender bud vase in ash glaze. Holds a single stem or a small arrangement with quiet elegance.",
     "availability": "Made to order — 4–6 weeks",
     "images": [],
-    "dimensions": { "Height": "10 in", "Diameter": "4 in", "Weight": "2 lbs" },
+    "dimensions": { "Height": "10 in", "Diameter": "4 in" },
     "shipping": "Each piece is carefully packaged in recycled materials and double-boxed for safe transit. Shipping rates are calculated based on destination.",
     "care": "Hand wash recommended. Not intended for prolonged water exposure on unglazed surfaces."
   },
@@ -262,7 +262,7 @@ window.PRODUCTS = [
     "description": "A tokkuri flask and two ochoko cups in iron-spotted glaze. Inspired by Japanese ceramic tradition, made in our studio.",
     "availability": "Made to order — 4–6 weeks",
     "images": [],
-    "dimensions": { "Flask Height": "6 in", "Cup Diameter": "2 in", "Weight": "1.5 lbs" },
+    "dimensions": { "Flask Height": "6 in", "Cup Diameter": "2 in" },
     "shipping": "Each piece is carefully packaged in recycled materials and double-boxed for safe transit. Shipping rates are calculated based on destination.",
     "care": "Hand wash recommended."
   },
@@ -288,7 +288,7 @@ window.PRODUCTS = [
     "description": "An abstract, organic form in unglazed ceramic. A quiet presence on a shelf, pedestal, or console table.",
     "availability": "Made to order — 4–6 weeks",
     "images": [],
-    "dimensions": { "Height": "14 in", "Width": "8 in", "Weight": "6 lbs" },
+    "dimensions": { "Height": "14 in", "Width": "8 in" },
     "shipping": "Each piece is carefully packaged in recycled materials and double-boxed for safe transit. Shipping rates are calculated based on destination.",
     "care": "Handle with care. Clean with a soft, dry cloth."
   },
@@ -301,7 +301,7 @@ window.PRODUCTS = [
     "description": "A modular ceramic wall installation composed of 24 individual forms. Can be arranged in a grid or organic pattern. Custom sizing available.",
     "availability": "Made to order — 8–12 weeks",
     "images": [],
-    "dimensions": { "Each Module": "6 × 6 in", "Suggested Layout": "36 × 24 in", "Weight": "28 lbs" },
+    "dimensions": { "Each Module": "6 × 6 in", "Suggested Layout": "36 × 24 in" },
     "shipping": "Ships in custom crating. Contact us for freight quotes on large installations.",
     "care": "Dust with a soft brush. Consult a professional for mounting."
   },
@@ -314,7 +314,7 @@ window.PRODUCTS = [
     "description": "A monolithic floor vessel with clean geometric lines. Unglazed exterior with a waterproof glazed interior. Works as a planter or standalone sculpture.",
     "availability": "Made to order — 4–6 weeks",
     "images": [],
-    "dimensions": { "Height": "24 in", "Diameter": "12 in", "Weight": "18 lbs" },
+    "dimensions": { "Height": "24 in", "Diameter": "12 in" },
     "shipping": "Each piece is carefully packaged in recycled materials and double-boxed for safe transit. Shipping rates are calculated based on destination.",
     "care": "Suitable for indoor use. Wipe with a damp cloth. Drain hole available on request."
   },
@@ -340,7 +340,7 @@ window.PRODUCTS = [
     "description": "A totem-like stacked form in alternating glazed and unglazed bands. Each section is thrown separately and assembled.",
     "availability": "Made to order — 4–6 weeks",
     "images": [],
-    "dimensions": { "Height": "18 in", "Width": "6 in", "Weight": "8 lbs" },
+    "dimensions": { "Height": "18 in", "Width": "6 in" },
     "shipping": "Each piece is carefully packaged in recycled materials and double-boxed for safe transit. Shipping rates are calculated based on destination.",
     "care": "Handle with care. Clean with a soft, dry cloth."
   },
@@ -353,7 +353,7 @@ window.PRODUCTS = [
     "description": "A three-panel room divider with ceramic tiles set in a blackened steel frame. Each tile is hand-glazed. Creates privacy while allowing light through.",
     "availability": "Made to order — 10–12 weeks",
     "images": [],
-    "dimensions": { "Height": "72 in", "Width": "60 in (total)", "Weight": "65 lbs" },
+    "dimensions": { "Height": "72 in", "Width": "60 in (total)" },
     "shipping": "Ships in custom crating via freight. Contact us for delivery quotes.",
     "care": "Wipe ceramic panels with a damp cloth. Treat steel frame with furniture wax annually."
   },
@@ -379,7 +379,7 @@ window.PRODUCTS = [
     "description": "A custom ceramic tile surround for fireplaces. Designed to your dimensions in a choice of glaze finishes. Includes installation template.",
     "availability": "Made to order — 12–16 weeks",
     "images": [],
-    "dimensions": { "Custom": "Contact for sizing", "Depth": "0.5 in", "Weight": "Varies" },
+    "dimensions": { "Custom": "Contact for sizing", "Depth": "0.5 in" },
     "shipping": "Ships in custom crating via freight. Contact us for delivery quotes.",
     "care": "Heat resistant. Clean with a damp cloth. Avoid abrasive cleaners near glaze surfaces."
   },
@@ -392,7 +392,7 @@ window.PRODUCTS = [
     "description": "A large-scale freestanding sculpture in raw ceramic. Inspired by eroded geological forms. No two are alike.",
     "availability": "Made to order — 6–8 weeks",
     "images": [],
-    "dimensions": { "Height": "28 in", "Width": "10 in", "Weight": "14 lbs" },
+    "dimensions": { "Height": "28 in", "Width": "10 in" },
     "shipping": "Each piece is carefully packaged in recycled materials and double-boxed for safe transit. Shipping rates are calculated based on destination.",
     "care": "Handle with care. Clean with a soft, dry cloth."
   }
