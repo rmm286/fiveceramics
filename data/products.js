@@ -139,6 +139,21 @@ window.PRODUCTS = [
     "shipping": "Each piece is carefully packaged in recycled materials and double-boxed for safe transit. Shipping rates are calculated based on destination.",
   },
   {
+    "slug": "speckled-dinner-plates",
+    "name": "Speckled Dinner Plates",
+    "category": "tableware",
+    "price": "$120",
+    "featured": true,
+    "description": "A set of four dinner plates in warm terracotta-toned ceramic with a dense speckle and matte finish. Low coupe rim, generous 11-inch surface — everyday tableware with a quiet, modern presence.",
+    "availability": "Made to order — 4–6 weeks",
+    "images": [
+      "images/plates_product_shot.png",
+      "images/plates_example_shot.png"
+    ],
+    "dimensions": { "Diameter": "11 in", "Set": "4 plates" },
+    "shipping": "Each piece is carefully packaged in recycled materials and double-boxed for safe transit. Shipping rates are calculated based on destination.",
+  },
+  {
     "slug": "bowl-set",
     "name": "Bowl Set",
     "category": "tableware",
