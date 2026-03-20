@@ -452,7 +452,7 @@ a.product-card {
 .product-detail-availability {
   font-size: 0.8rem;
   color: #9a918a;
-  margin-bottom: 2.5rem;
+  margin-bottom: 1rem;
   letter-spacing: 0.04em;
 }
 
@@ -535,6 +535,94 @@ a.product-card {
 
 .product-back-link:hover {
   color: #2c2c2c;
+}
+
+.product-purchase-btn {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+/* ===== Contact page / form ===== */
+.contact-page {
+  max-width: 32rem;
+}
+
+.contact-intro {
+  margin-bottom: 2rem;
+  max-width: 36rem;
+}
+
+.contact-thanks {
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 2rem;
+  border: 1px solid rgba(44, 44, 44, 0.12);
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.contact-thanks p {
+  margin-bottom: 0.75rem;
+}
+
+.contact-thanks p:last-child {
+  margin-bottom: 0;
+}
+
+.contact-thanks a {
+  font-size: 0.78rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #9a918a;
+  transition: color 0.2s;
+}
+
+.contact-thanks a:hover {
+  color: #2c2c2c;
+}
+
+.contact-form .form-group {
+  margin-bottom: 1.35rem;
+}
+
+.contact-form label {
+  display: block;
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #7a726a;
+  margin-bottom: 0.45rem;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 0.75rem 0.9rem;
+  font-family: inherit;
+  font-size: 0.95rem;
+  color: #2c2c2c;
+  background: #fff;
+  border: 1px solid rgba(44, 44, 44, 0.15);
+  border-radius: 0;
+  transition: border-color 0.2s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: rgba(44, 44, 44, 0.45);
+}
+
+.contact-form textarea {
+  resize: vertical;
+  min-height: 8rem;
+  line-height: 1.6;
+}
+
+.contact-submit {
+  margin-top: 0.5rem;
+  cursor: pointer;
+  font: inherit;
+  background: transparent;
 }
 
 /* ===== Buttons / Links ===== */
