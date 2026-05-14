@@ -31,6 +31,20 @@ window.PRODUCTS = [
     "shipping": "Each piece is carefully packaged in recycled materials and double-boxed for safe transit. Shipping rates are calculated based on destination.",
   },
   {
+    "slug": "pink-table-lamp",
+    "name": "Pink Table Lamp",
+    "category": "lighting",
+    "price": "$250",
+    "featured": true,
+    "description": "A two-tier ceramic table lamp with a minimalist silhouette. Warm pink glaze with a soft, matte finish.",
+    "availability": "Made to order — 4–6 weeks",
+    "images": [
+      "images/pink_table_lamp_product.png"
+    ],
+    "dimensions": { "Height": "12 in", "Top": "7 in", "Base": "6 in" },
+    "shipping": "Each piece is carefully packaged in recycled materials and double-boxed for safe transit. Shipping rates are calculated based on destination.",
+  },
+  {
     "slug": "pendant-lamp-ii",
     "name": "Pendant Lamp II",
     "category": "lighting",
