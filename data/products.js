@@ -216,15 +216,18 @@ window.PRODUCTS = [
     "shipping": "Each piece is carefully packaged in recycled materials and double-boxed for safe transit. Shipping rates are calculated based on destination.",
   },
   {
-    "slug": "vase",
-    "name": "Vase",
+    "slug": "earthen-vessel",
+    "name": "Earthen Vessel",
     "category": "tableware",
-    "price": "$185",
-    "featured": false,
-    "description": "A tall, slender bud vase in ash glaze. Holds a single stem or a small arrangement with quiet elegance.",
+    "price": "$150",
+    "featured": true,
+    "description": "A hand-built ceramic vessel in black clay. Generous form for stems, branches, or standing alone as a sculptural object.",
     "availability": "Made to order — 4–6 weeks",
-    "images": [],
-    "dimensions": { "Height": "10 in", "Diameter": "4 in" },
+    "images": [
+      "images/vase_product_shot.png",
+      "images/vase_in_home.png"
+    ],
+    "dimensions": { "Height": "11 in", "Width": "5 in", "Depth": "5 in" },
     "shipping": "Each piece is carefully packaged in recycled materials and double-boxed for safe transit. Shipping rates are calculated based on destination.",
   },
   {
