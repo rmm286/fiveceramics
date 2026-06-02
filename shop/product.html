@@ -164,7 +164,7 @@
         +   '<h1>' + p.name + '</h1>'
         +   '<p class="product-detail-price">' + p.price + '</p>'
         +   '<p class="product-detail-description">' + p.description + '</p>'
-        +   '<p class="product-detail-availability">' + (p.availability || '') + '</p>'
+        +   (p.availability ? '<p class="product-detail-availability">' + p.availability + '</p>' : '')
         +   '<a href="../contact.html?product=' + encodeURIComponent(p.name) + '&slug=' + encodeURIComponent(p.slug) + '" class="btn product-purchase-btn">Purchase now</a>'
         +   '<details class="product-accordion">'
         +     '<summary>Dimensions</summary>'
