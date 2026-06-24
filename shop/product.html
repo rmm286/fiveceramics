@@ -88,9 +88,16 @@
         return new URL('../' + path, window.location.href).href;
       }
 
+      function stripHtml(html) {
+        var el = document.createElement('div');
+        el.innerHTML = html;
+        return (el.textContent || el.innerText || '').replace(/\s+/g, ' ').trim();
+      }
+
       function setSocialPreview(product) {
         var title = product.name + ' - Five Ceramics';
-        var description = product.description || 'Discover handcrafted ceramic pieces by Five Ceramics.';
+        var rawDescription = product.description || 'Discover handcrafted ceramic pieces by Five Ceramics.';
+        var description = stripHtml(rawDescription).slice(0, 160);
         var image = product.images && product.images.length ? toAbsoluteUrl(product.images[0]) : '';
         var pageUrl = new URL(window.location.href);
         pageUrl.searchParams.set('slug', product.slug);
@@ -163,9 +170,10 @@
         +   '<p class="product-breadcrumb">Shop &nbsp;|&nbsp; ' + catLabel + '</p>'
         +   '<h1>' + p.name + '</h1>'
         +   '<p class="product-detail-price">' + p.price + '</p>'
-        +   '<p class="product-detail-description">' + p.description + '</p>'
+        +   (p.sku ? '<p class="product-detail-sku">SKU: ' + p.sku + '</p>' : '')
+        +   '<div class="product-detail-description">' + p.description + '</div>'
         +   (p.availability ? '<p class="product-detail-availability">' + p.availability + '</p>' : '')
-        +   '<a href="../contact.html?product=' + encodeURIComponent(p.name) + '&slug=' + encodeURIComponent(p.slug) + '" class="btn product-purchase-btn">Purchase now</a>'
+        +   '<a href="../contact.html?product=' + encodeURIComponent(p.name) + '&slug=' + encodeURIComponent(p.slug) + (p.sku ? '&sku=' + encodeURIComponent(p.sku) : '') + '" class="btn product-purchase-btn">Purchase now</a>'
         +   '<details class="product-accordion">'
         +     '<summary>Dimensions</summary>'
         +     '<div class="product-accordion-content">'

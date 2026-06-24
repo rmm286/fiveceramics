@@ -58,6 +58,7 @@
 
         <input type="hidden" name="product" id="field-product" value="">
         <input type="hidden" name="product_slug" id="field-slug" value="">
+        <input type="hidden" name="sku" id="field-sku" value="">
 
         <div class="form-group">
           <label for="contact-name">Name</label>
@@ -103,9 +104,11 @@
 
       var productName = params.get('product') || '';
       var slug = params.get('slug') || '';
+      var sku = params.get('sku') || '';
       var subjectEl = document.getElementById('email-subject');
       var productField = document.getElementById('field-product');
       var slugField = document.getElementById('field-slug');
+      var skuField = document.getElementById('field-sku');
       var messageEl = document.getElementById('email-message');
 
       if (productName) {
@@ -117,9 +120,14 @@
         try { slug = decodeURIComponent(slug); } catch (e2) {}
         if (slugField) slugField.value = slug;
       }
+      if (sku) {
+        try { sku = decodeURIComponent(sku); } catch (e3) {}
+        if (skuField) skuField.value = sku;
+      }
       if ((productName || slug) && messageEl && !messageEl.value.trim()) {
         var lines = [];
         if (productName) lines.push('I\'d like to purchase: ' + productName);
+        if (sku) lines.push('SKU: ' + sku);
         if (slug) lines.push('Product page: https://fiveceramics.com/shop/product.html?slug=' + encodeURIComponent(slug));
         messageEl.value = lines.join('\n\n');
       }

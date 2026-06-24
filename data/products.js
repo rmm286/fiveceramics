@@ -1,11 +1,12 @@
 window.PRODUCTS = [
   {
     "slug": "sconce",
+    "sku": "FC-LT-001",
     "name": "Sconce",
     "category": "lighting",
     "price": "$200",
     "featured": true,
-    "description": "A handcrafted ceramic sconce with a warm, architectural glow.",
+    "description": "<p>Bring warm, earthy minimalism into your space with this handmade ceramic wall sconce. The unglazed finish highlights the raw, tactile texture of the natural clay, acting as a sculptural accent by day and providing a soft, atmospheric downlight by night.</p><p>Designed for total versatility, this sconce mounts easily to your wall using just a single screw. It comes standard with a wall plug for an effortless, drill-free setup, but is also fully compatible with a standard junction box for a seamless hardwired installation. Built with safety and quality in mind, the fixture is assembled entirely with UL-listed components.</p><h3 class=\"product-detail-heading\">Product Details</h3><ul class=\"product-detail-list\"><li><strong>Material:</strong> Unglazed ceramic with a raw, speckled finish</li><li><strong>Origin:</strong> Handmade</li><li><strong>Installation:</strong> Mounts effortlessly using a single screw</li><li><strong>Power Options:</strong> Includes a standard wall plug for immediate use, or can be hardwired directly to a junction box</li><li><strong>Safety:</strong> Features UL-listed electrical components</li></ul>",
     "images": [
       "images/sconce_product_shot.png",
       "images/rodsbod_sconce_product_port.png",
@@ -16,6 +17,7 @@ window.PRODUCTS = [
   },
   {
     "slug": "table-lamp",
+    "sku": "FC-LT-002",
     "name": "Table Lamp",
     "category": "lighting",
     "price": "$250",
@@ -30,6 +32,7 @@ window.PRODUCTS = [
   },
   {
     "slug": "pink-table-lamp",
+    "sku": "FC-LT-003",
     "name": "Pink Table Lamp",
     "category": "lighting",
     "price": "$250",
@@ -44,6 +47,7 @@ window.PRODUCTS = [
   },
   {
     "slug": "pendant-lamp-ii",
+    "sku": "FC-LT-004",
     "name": "Pendant Lamp II",
     "category": "lighting",
     "price": "$950",
@@ -55,6 +59,7 @@ window.PRODUCTS = [
   },
   {
     "slug": "table-lamp-i",
+    "sku": "FC-LT-005",
     "name": "Table Lamp I",
     "category": "lighting",
     "price": "$720",
@@ -66,6 +71,7 @@ window.PRODUCTS = [
   },
   {
     "slug": "table-lamp-ii",
+    "sku": "FC-LT-006",
     "name": "Table Lamp II",
     "category": "lighting",
     "price": "$780",
@@ -77,6 +83,7 @@ window.PRODUCTS = [
   },
   {
     "slug": "wall-sconce-i",
+    "sku": "FC-LT-007",
     "name": "Wall Sconce I",
     "category": "lighting",
     "price": "$620",
@@ -88,6 +95,7 @@ window.PRODUCTS = [
   },
   {
     "slug": "wall-sconce-ii",
+    "sku": "FC-LT-008",
     "name": "Wall Sconce II",
     "category": "lighting",
     "price": "$680",
@@ -99,6 +107,7 @@ window.PRODUCTS = [
   },
   {
     "slug": "floor-lamp-arc",
+    "sku": "FC-LT-009",
     "name": "Floor Lamp Arc",
     "category": "lighting",
     "price": "$1,400",
@@ -110,6 +119,7 @@ window.PRODUCTS = [
   },
   {
     "slug": "pendant-cluster",
+    "sku": "FC-LT-010",
     "name": "Pendant Cluster",
     "category": "lighting",
     "price": "$2,200",
@@ -121,6 +131,7 @@ window.PRODUCTS = [
   },
   {
     "slug": "lantern-sconce",
+    "sku": "FC-LT-011",
     "name": "Lantern Sconce",
     "category": "lighting",
     "price": "$540",
@@ -132,6 +143,7 @@ window.PRODUCTS = [
   },
   {
     "slug": "dinner-plate-set",
+    "sku": "FC-TW-001",
     "name": "Dinner Plate Set",
     "category": "tableware",
     "price": "$240",
@@ -143,6 +155,7 @@ window.PRODUCTS = [
   },
   {
     "slug": "speckled-dinner-plates",
+    "sku": "FC-TW-002",
     "name": "Speckled Dinner Plates",
     "category": "tableware",
     "price": "$120",
@@ -157,6 +170,7 @@ window.PRODUCTS = [
   },
   {
     "slug": "bowl-set",
+    "sku": "FC-TW-003",
     "name": "Bowl Set",
     "category": "tableware",
     "price": "$180",
@@ -168,6 +182,7 @@ window.PRODUCTS = [
   },
   {
     "slug": "mug-collection",
+    "sku": "FC-TW-004",
     "name": "Mug Collection",
     "category": "tableware",
     "price": "$160",
@@ -179,6 +194,7 @@ window.PRODUCTS = [
   },
   {
     "slug": "serving-platter",
+    "sku": "FC-TW-005",
     "name": "Serving Platter",
     "category": "tableware",
     "price": "$145",
@@ -190,6 +206,7 @@ window.PRODUCTS = [
   },
   {
     "slug": "pour-over-set",
+    "sku": "FC-TW-006",
     "name": "Pour-Over Set",
     "category": "tableware",
     "price": "$120",
@@ -201,6 +218,7 @@ window.PRODUCTS = [
   },
   {
     "slug": "earthen-vessel",
+    "sku": "FC-TW-007",
     "name": "Earthen Vessel",
     "category": "tableware",
     "price": "$150",
@@ -215,6 +233,7 @@ window.PRODUCTS = [
   },
   {
     "slug": "espresso-cup-pair",
+    "sku": "FC-TW-008",
     "name": "Espresso Cup Pair",
     "category": "tableware",
     "price": "$85",
@@ -226,6 +245,7 @@ window.PRODUCTS = [
   },
   {
     "slug": "butter-dish",
+    "sku": "FC-TW-009",
     "name": "Butter Dish",
     "category": "tableware",
     "price": "$75",
@@ -237,6 +257,7 @@ window.PRODUCTS = [
   },
   {
     "slug": "pitcher",
+    "sku": "FC-TW-010",
     "name": "Pitcher",
     "category": "tableware",
     "price": "$135",
@@ -248,6 +269,7 @@ window.PRODUCTS = [
   },
   {
     "slug": "sake-set",
+    "sku": "FC-TW-011",
     "name": "Sake Set",
     "category": "tableware",
     "price": "$110",
@@ -259,6 +281,7 @@ window.PRODUCTS = [
   },
   {
     "slug": "wall-tile-set",
+    "sku": "FC-IN-001",
     "name": "Wall Tile Set",
     "category": "interiors",
     "price": "$45/tile",
@@ -270,6 +293,7 @@ window.PRODUCTS = [
   },
   {
     "slug": "sculptural-object-i",
+    "sku": "FC-IN-002",
     "name": "Sculptural Object I",
     "category": "interiors",
     "price": "$480",
@@ -281,6 +305,7 @@ window.PRODUCTS = [
   },
   {
     "slug": "wall-installation",
+    "sku": "FC-IN-003",
     "name": "Wall Installation",
     "category": "interiors",
     "price": "$3,200",
@@ -292,6 +317,7 @@ window.PRODUCTS = [
   },
   {
     "slug": "architectural-vessel",
+    "sku": "FC-IN-004",
     "name": "Architectural Vessel",
     "category": "interiors",
     "price": "$650",
@@ -303,6 +329,7 @@ window.PRODUCTS = [
   },
   {
     "slug": "floor-tile-collection",
+    "sku": "FC-IN-005",
     "name": "Floor Tile Collection",
     "category": "interiors",
     "price": "$55/tile",
@@ -314,6 +341,7 @@ window.PRODUCTS = [
   },
   {
     "slug": "sculptural-object-ii",
+    "sku": "FC-IN-006",
     "name": "Sculptural Object II",
     "category": "interiors",
     "price": "$560",
@@ -325,6 +353,7 @@ window.PRODUCTS = [
   },
   {
     "slug": "room-divider-screen",
+    "sku": "FC-IN-007",
     "name": "Room Divider Screen",
     "category": "interiors",
     "price": "$4,800",
@@ -336,6 +365,7 @@ window.PRODUCTS = [
   },
   {
     "slug": "console-vessel",
+    "sku": "FC-IN-008",
     "name": "Console Vessel",
     "category": "interiors",
     "price": "$380",
@@ -347,6 +377,7 @@ window.PRODUCTS = [
   },
   {
     "slug": "fireplace-surround",
+    "sku": "FC-IN-009",
     "name": "Fireplace Surround",
     "category": "interiors",
     "price": "$6,500",
@@ -358,6 +389,7 @@ window.PRODUCTS = [
   },
   {
     "slug": "sculptural-object-iii",
+    "sku": "FC-IN-010",
     "name": "Sculptural Object III",
     "category": "interiors",
     "price": "$720",
