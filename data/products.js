@@ -46,6 +46,21 @@ window.PRODUCTS = [
     "shipping": "Each piece is carefully packaged in recycled materials and double-boxed for safe transit. Shipping rates are calculated based on destination.",
   },
   {
+    "slug": "pillar-lamp",
+    "sku": "FC-LT-012",
+    "name": "Pillar Lamp",
+    "category": "lighting",
+    "price": "$250",
+    "featured": true,
+    "description": "An unglazed ceramic table lamp with a tall, slender silhouette. Warm speckled clay with a soft downlight glow.",
+    "images": [
+      "images/skinny_lamp_product_shot.png",
+      "images/skinny_lamp_example_shot.png"
+    ],
+    "dimensions": { "Height": "12 in", "Width": "5 in", "Depth": "5 in" },
+    "shipping": "Each piece is carefully packaged in recycled materials and double-boxed for safe transit. Shipping rates are calculated based on destination.",
+  },
+  {
     "slug": "pendant-lamp-ii",
     "sku": "FC-LT-004",
     "name": "Pendant Lamp II",
