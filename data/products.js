@@ -75,6 +75,21 @@ window.PRODUCTS = [
     "shipping": "Each piece is carefully packaged in recycled materials and double-boxed for safe transit. Shipping rates are calculated based on destination.",
   },
   {
+    "slug": "shade-lamp",
+    "sku": "FC-LT-014",
+    "name": "Shade Lamp",
+    "category": "lighting",
+    "price": "$300",
+    "featured": true,
+    "description": "A table lamp with a raw brown clay base with a handmade seagrass lampshade from local seagrass. Warm brass hardware and a soft, ambient glow.",
+    "images": [
+      "images/shade_lamp_product_shot.png",
+      "images/shade_lamp_example.JPG"
+    ],
+    "dimensions": { "Height": "12 in", "Width": "6 in", "Depth": "6 in" },
+    "shipping": "Each piece is carefully packaged in recycled materials and double-boxed for safe transit. Shipping rates are calculated based on destination.",
+  },
+  {
     "slug": "pendant-lamp-ii",
     "sku": "FC-LT-004",
     "name": "Pendant Lamp II",
