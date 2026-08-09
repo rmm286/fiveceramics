@@ -61,6 +61,20 @@ window.PRODUCTS = [
     "shipping": "Each piece is carefully packaged in recycled materials and double-boxed for safe transit. Shipping rates are calculated based on destination.",
   },
   {
+    "slug": "pink-table-lamp-ii",
+    "sku": "FC-LT-013",
+    "name": "Pink Table Lamp II",
+    "category": "lighting",
+    "price": "$250",
+    "featured": true,
+    "description": "A two-tier ceramic table lamp in dusty pink with a heavily speckled finish. Compact silhouette with a soft, warm glow.",
+    "images": [
+      "images/new_pink_lamp_example.png"
+    ],
+    "dimensions": { "Height": "11 in", "Width": "6 in", "Depth": "6 in" },
+    "shipping": "Each piece is carefully packaged in recycled materials and double-boxed for safe transit. Shipping rates are calculated based on destination.",
+  },
+  {
     "slug": "pendant-lamp-ii",
     "sku": "FC-LT-004",
     "name": "Pendant Lamp II",
